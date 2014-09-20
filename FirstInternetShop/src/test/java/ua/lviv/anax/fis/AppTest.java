@@ -1,4 +1,4 @@
-package ua.lviv.anax.enterprise.hibernate;
+package ua.lviv.anax.fis;
 
 import junit.framework.Test;
 import junit.framework.TestCase;

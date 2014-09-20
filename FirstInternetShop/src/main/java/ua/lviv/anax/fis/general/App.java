@@ -1,4 +1,4 @@
-package ua.lviv.anax.enterprise.hibernate;
+package ua.lviv.anax.fis.general;
 
 /**
  * Hello world!
