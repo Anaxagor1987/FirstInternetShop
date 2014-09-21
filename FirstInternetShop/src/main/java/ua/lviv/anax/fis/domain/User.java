@@ -19,12 +19,12 @@ public class User {
 	@Column(name="user_name")
 	private String name;
 	@Column(name="user_email")
-	private int email;
+	private String email;
 	
 	public User() {
 	}
 
-	public User(String name, int email) {
+	public User(String name, String email) {
 		this.name = name;
 		this.email = email;
 	}
@@ -45,11 +45,11 @@ public class User {
 		this.name = name;
 	}
 
-	public int getEmail() {
+	public String getEmail() {
 		return email;
 	}
 
-	public void setEmail(int email) {
+	public void setEmail(String email) {
 		this.email = email;
 	}
 

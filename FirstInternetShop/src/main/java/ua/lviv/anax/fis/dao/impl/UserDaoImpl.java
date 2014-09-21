@@ -5,11 +5,11 @@ import java.util.List;
 
 import org.hibernate.Session;
 
-import ua.lviv.anax.fis.dao.UserDAO;
+import ua.lviv.anax.fis.dao.UserDao;
 import ua.lviv.anax.fis.domain.User;
 import ua.lviv.anax.fis.util.HibernateUtil;
 
-public class UserDaoImpl implements UserDAO{
+public class UserDaoImpl implements UserDao{
 
 	@Override
 	public void addUser(User user) throws SQLException {

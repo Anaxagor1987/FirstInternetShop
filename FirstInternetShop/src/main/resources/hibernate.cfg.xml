@@ -8,11 +8,11 @@
 	<property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
 	<property name="hibernate.connection.username">root</property>
  	<property name="hibernate.connection.password">root</property>
-	<property name="hibernate.connection.url">jdbc:mysql://localhost:3306/FirstInternetShop_db</property>
+	<property name="hibernate.connection.url">jdbc:mysql://localhost:3306/firstInternetShop_db</property>
 	<property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
 	<property name="show_sql">true</property>
-	<mapping class="ua.lviv.anax.fis.User"></mapping>
-	<mapping class="ua.lviv.anax.fis.Product"></mapping>
-	<mapping class="ua.lviv.anax.fis.Bucket"></mapping>
+	<mapping class="ua.lviv.anax.fis.domain.User"></mapping>
+	<mapping class="ua.lviv.anax.fis.domain.Product"></mapping>
+	<mapping class="ua.lviv.anax.fis.domain.Bucket"></mapping>
   </session-factory>
 </hibernate-configuration>
